@@ -164,7 +164,9 @@ header nav a {
 }
 
 .jumbo {
+    width: 800px;
     margin: auto;
+
 }
 
 .box1 {
@@ -236,4 +238,27 @@ header nav a {
 	margin-top: 15px;
     background-color: white;
     font-size: 18px;
+}
+
+.products-top {
+    display: flex;
+}
+
+.products-middle {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 30px auto;
+}
+
+.products-middle article {
+    width: 50%;
+    margin: 30px auto;
+    border-bottom: 1px dashed grey;
+}
+
+.products-middle article h2 {
+    border-bottom: 1px solid black;
+    width: max-content;
 }
