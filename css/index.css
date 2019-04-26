@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+/*     background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,122 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 40px auto;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    align-self: flex-end;
+}
+
+.jumbo {
+    width: 800px;
+    margin: auto;
+
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
+}
+
+.middle article {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.middle article img {
+    margin: 15px;
+}
+
+.outside {
+    margin: 30px;
+}
+
+.middle button {
+	border: 3px solid black;
+	border-radius: 12%;
+	padding: 10px 20px;
+	margin-top: 15px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.products-top {
+    display: flex;
+}
+
+.products-middle {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 30px auto;
+}
+
+.products-middle article {
+    width: 50%;
+    margin: 30px auto;
+    border-bottom: 1px dashed grey;
+}
+
+.products-middle article h2 {
+    border-bottom: 1px solid black;
+    width: max-content;
 }
