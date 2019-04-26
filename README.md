@@ -45,15 +45,12 @@ Block takes a new line where inline doesn't.
 
 3. What are the 4 areas of the box model?
 
-content
-padding
-border
-margin
+Content, padding, border and margin.
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-the cross-axis
+On the cross-axis.
 
 
 5. Explain why git is valuable to a team of developers.
