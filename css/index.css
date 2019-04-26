@@ -158,6 +158,10 @@ header nav a {
     background-color: yellow;
 }
 
+.jumbo {
+    margin: auto;
+}
+
 .box1 {
     background-color: teal;
 }
@@ -196,4 +200,13 @@ header nav a {
 
 .box10 {
     background-color: dodgerblue;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle article {
+    width: 50%;
 }
