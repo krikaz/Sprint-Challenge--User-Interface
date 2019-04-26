@@ -205,8 +205,21 @@ header nav a {
 .middle {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
 }
 
 .middle article {
     width: 50%;
+    border-bottom: 1px dashed black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.middle article img {
+    margin: 15px;
+}
+
+.outside {
+    margin: 30px;
 }
